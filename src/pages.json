@@ -17,6 +17,12 @@
 			"style": {
 				"navigationBarTitleText": "Counter"
 			}
+		},
+		{
+			"path": "pages/index/api-call",
+			"style": {
+				"navigationBarTitleText": "API Call"
+			}
 		}
 	],
 	"globalStyle": {
