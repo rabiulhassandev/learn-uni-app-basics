@@ -11,6 +11,12 @@
 			"style": {
 				"navigationBarTitleText": "About"
 			}
+		},
+		{
+			"path": "pages/index/counter",
+			"style": {
+				"navigationBarTitleText": "Counter"
+			}
 		}
 	],
 	"globalStyle": {

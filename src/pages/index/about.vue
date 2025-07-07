@@ -1,8 +1,16 @@
 <template>
-    <view class="container">
-        <view class="content">
-            <text class="title">关于我们</text>
-            <text class="description">这是关于我们页面的内容。</text>
-        </view>
-    </view>
+    
+    <h1>About Us Page</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere at architecto officiis consequuntur fuga minus?</p>
+
+    <button @click="goBack">Go Back</button>
 </template>
+
+<script setup lang="ts">
+    // go back to previous page
+    const goBack = () => {
+        uni.navigateBack({
+            delta: 1 // Go back one page
+        });
+    }
+</script>
